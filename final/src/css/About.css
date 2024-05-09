@@ -1,0 +1,45 @@
+.about {
+    min-height: 52rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    gap: 1.5rem;
+}
+
+.languages {
+    display: flex;
+    gap: 1rem;
+}
+
+.lang {
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+.lang.active {
+    text-decoration: underline;
+    color: rgb(20, 73, 164);
+}
+
+@media (max-width:44rem) {
+    .about {
+        flex-direction: column;
+        padding: 1rem;
+        gap: 3rem;
+    }
+
+    .texts {
+        width: 16rem;
+    }
+}

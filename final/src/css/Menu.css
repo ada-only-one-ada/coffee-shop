@@ -1,0 +1,52 @@
+.menu {
+    background-image: url('/menu-background.jpg');
+    background-size: cover;
+    background-position: center;
+
+    min-height: 47rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5rem;
+}
+
+.menu__container {
+    width: 40rem;
+    padding: 1.5rem;
+    border-radius: 16px;
+    background-color: #5e4f31;
+    color: white;
+}
+
+.coffee__item {
+    display: flex;
+    justify-content: space-around;
+    padding: 0.2rem;
+}
+
+.coffee__item p {
+    flex: 1;
+    text-align: center;
+}
+
+.category {
+    font-weight: 600;
+    color: #97d9f7;
+}
+
+@media (max-width:44rem) {
+    .menu {
+        padding: 1rem;
+    }
+
+    .menu__container {
+        width: 17rem;
+        padding: 0.5rem;
+    }
+
+    .coffee__item p {
+        font-size: 0.85rem;
+    }
+
+}

@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.app {
+    display: grid;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+}
+
+.skip {
+    position: absolute;
+    top: -50%;
+}
+
+.skip:focus {
+    top: 0;
+    left: 50%;
+    color: white;
+}
+
+.header {
+    grid-area: header;
+    background-color: #423114;
+    padding: 1rem;
+    color: #8FCEFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user__button,
+.logout__button {
+    background-color: inherit;
+    border: none;
+    color: #DEE2EC;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.status {
+    color: rgb(200, 27, 27);
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.user__button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.1rem;
+}
+
+.user__button:hover,
+.lougout__button:hover {
+    color: rgb(232, 209, 135);
+}
+
+main {
+    grid-area: main;
+}
+
+.nav header__nav {
+    position: relative;
+}
+
+.hamburger__button {
+    padding: 0.8rem;
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+    display: none;
+    justify-content: end;
+    align-self: flex-end;
+}
+
+.nav__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+}
+
+.nav__list.shown {
+    display: block;
+    position: absolute;
+    right: 0;
+    width: auto;
+    z-index: 1;
+    background: #644a13;
+}
+
+.gg-menu {
+    color: white;
+}
+
+.nav__item {
+    padding: 0.7rem;
+    padding-top: 0.5rem;
+}
+
+.nav__link {
+    color: #DEE2EC;
+    text-decoration: none;
+}
+
+.nav__link:hover {
+    color: rgb(230, 187, 48);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    grid-area: footer;
+    background-color: #423114;
+    padding: 1rem;
+}
+
+.footer__link {
+    color: #DEE2EC;
+    text-decoration: none;
+}
+
+@media (max-width:44rem) {
+    .hamburger__button {
+        display: flex;
+    }
+
+    .nav__list {
+        display: none;
+    }
+
+    .header__title {
+        font-size: 1.2rem;
+    }
+
+    .header__buttons {
+        gap: 0.5rem;
+    }
+}

@@ -1,0 +1,23 @@
+unsplash.com:
+License: All images can be downloaded and used for free. Commercial and non-commercial purposes (https://unsplash.com/license)
+pig-logo: https://unsplash.com/photos/pig-face-painting-on-wall-DsDTN8KyjKU 
+coffee-and-book: https://unsplash.com/photos/black-ballpoint-pen-on-white-ruled-paper-sheet-vD9Gb_H7RR8
+store: https://unsplash.com/photos/man-sitting-on-bar-chair-in-front-man-at-cafe-9Y8vxVQN4o4
+menu-background: https://unsplash.com/photos/a-pile-of-coffee-beans-sitting-on-top-of-a-table-pbADWb2YAQQ
+cameroon: https://unsplash.com/photos/person-holding-trader-joes-cameroon-mount-oku-paper-GUdiuHpmlm4
+raees-blend: https://unsplash.com/photos/a-bag-of-coffee-sitting-on-top-of-a-table-g74BFhN6Bos
+law-breakers: https://unsplash.com/photos/a-bag-of-law-breakers-coffee-sitting-on-a-counter-0jaAN7htIT0
+primo-passo: https://unsplash.com/photos/three-brown-primo-passo-coffee-co-packs-KRedbshBxEk
+krank: https://unsplash.com/photos/person-holding-black-and-brown-pack-LFDrMXKRfyc
+cultivate: https://unsplash.com/photos/a-bag-of-coffee-sitting-on-top-of-a-wooden-table-DLPN3DYvDzY
+french-truck: https://unsplash.com/photos/yellow-french-truck-coffee-pack-_uncFvtOC-4
+
+wikipedia.org:
+Licence: https://en.wikipedia.org/wiki/Wikipedia:Basic_copyright_issues
+sanmao: https://en.wikipedia.org/wiki/File:SanMaophoto.jpg
+
+css.gg:
+License: The MIT License (MIT) (https://css.gg/doc/licence) 
+user icon: https://unpkg.com/css.gg@2.0.0/icons/css/user.css
+logout icon: https://unpkg.com/css.gg@2.0.0/icons/css/log-out.css
+menu icon: https://unpkg.com/css.gg@2.0.0/icons/css/menu.css
